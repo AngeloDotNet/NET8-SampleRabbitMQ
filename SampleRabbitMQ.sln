@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Frontend", "src\WebA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Shared", "src\WebApi.Shared\WebApi.Shared.csproj", "{C716B0FB-9B6D-4A8B-B6A9-02B6AB62A512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Backend", "src\WebApi.Backend\WebApi.Backend.csproj", "{51BF48EC-161B-4CC5-970E-7CEED6A90B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.Backend", "src\WebApi.Backend\WebApi.Backend.csproj", "{51BF48EC-161B-4CC5-970E-7CEED6A90B9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
