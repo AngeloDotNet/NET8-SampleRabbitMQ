@@ -17,7 +17,7 @@ public class MessagesController : ControllerBase
         this.logger = logger;
     }
 
-    [HttpPost]
+    [HttpPost("invioMessaggio")]
     [ProducesResponseType(StatusCodes.Status202Accepted)]
     public async Task<IActionResult> CreateMessage(Message message)
     {
@@ -27,7 +27,7 @@ public class MessagesController : ControllerBase
         return Accepted();
     }
 
-    [HttpPost]
+    [HttpPost("InvioEmail")]
     [ProducesResponseType(StatusCodes.Status202Accepted)]
     public async Task<IActionResult> CreateEmail(EmailMessage message)
     {
